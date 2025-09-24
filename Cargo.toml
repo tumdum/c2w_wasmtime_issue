@@ -1,0 +1,11 @@
+[package]
+name = "quux"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.47.1", features = ["full"] }
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.20", features = ["env-filter", "time"] }
+wasmtime = "37.0.1"
+wasmtime-wasi = "37.0.1"
